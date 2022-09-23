@@ -1,31 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Quizz App</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="style.css" rel="stylesheet">
+  <script defer src="script.js"></script>
+  <title>Quiz App</title>
 </head>
-<body>
-    <div class="container">
-        <div id="question-container" class="question-container hide">
-            <div class="question-text">
-                Who is the best YouTuber?
-            </div>
-            <div id="answear-buttons" class="btn-grid">
-                <button id="answear-button" class="btn">Web Dev Simplified</button>
-                <button id="answear-button" class="btn">Traversy Media</button>
-                <button id="answear-button" class="btn">Dev Ed</button>
-                <button id="answear-button" class="btn">Fun Fun Function</button>
-            </div>
-        </div>
-        <div class="controls">
-            <button id="start-button" class="start-button btn">Start</button>
-            <button id="next-button" class="next-button btn hide">Next</button>
-        </div>
+<body class="correct">
+  <div class="container">
+    <div id="question-container" class="hide">
+      <div id="question" class="question-text" >Question</div>
+      <div id="answer-buttons" class="btn-grid">
+        <button class="btn">Answer 1</button>
+        <button class="btn">Answer 2</button>
+        <button class="btn">Answer 3</button>
+        <button class="btn">Answer 4</button>
+      </div>
     </div>
-
-    <script src="script.js"></script>
+    <div class="controls">
+      <button id="start-btn" class="start-btn btn">Start</button>
+      <button id="next-btn" class="next-btn btn hide">Next</button>
+    </div>
+  </div>
 </body>
 </html>
