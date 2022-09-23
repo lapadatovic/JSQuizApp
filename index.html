@@ -4,9 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Quizz App</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div id="question-container" class="question-container hide">
+            <div class="question-text">
+                Who is the best YouTuber?
+            </div>
+            <div id="answear-buttons" class="btn-grid">
+                <button id="answear-button" class="btn">Web Dev Simplified</button>
+                <button id="answear-button" class="btn">Traversy Media</button>
+                <button id="answear-button" class="btn">Dev Ed</button>
+                <button id="answear-button" class="btn">Fun Fun Function</button>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="start-button" class="start-button btn">Start</button>
+            <button id="next-button" class="next-button btn hide">Next</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
