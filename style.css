@@ -76,7 +76,7 @@ body.false {
     color: black;
 }
 
-.btn.wrong {
+.btn.false {
     --hue: var(--hue-wrong);
 
 }
